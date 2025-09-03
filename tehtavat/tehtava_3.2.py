@@ -1,15 +1,14 @@
 #tehtävä 3.2.
-from operator import ifloordiv
 
 luokka = input("Mikä on hyttiluokkasi?: ")
 
-if luokka == "LUX":
+if luokka == "LUX" or "Lux" or "lux":
     print("LUX on parvekkeellinen hytti yläkannella.")
-elif luokka == "A":
+elif luokka == "A" or "a":
     print("A on ikkunallinen hytti autokannen yläpuolella.")
-elif luokka == "B":
+elif luokka == "B" or "b":
     print("B on ikkunaton hytti autokannen yläpuolella.")
-elif luokka == "C":
+elif luokka == "C" or "c":
     print("C on ikkunaton hytti autokannen alapuolella.")
 else:
     print("Virheellinen hyttiluokka")
